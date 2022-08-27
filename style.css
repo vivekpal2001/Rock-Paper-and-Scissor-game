@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* heading */
+
+h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+/* game */
+
+#gameDiv {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.indivisual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
+.indivisual button {
+  height: 100%;
+  width: 100%;
+}
+.indivisual button img {
+  height: 100%;
+  width: 100%;
+}
+
+/* SCORE */
+
+#score {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(0, 136, 255);
+}
+#compare {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+#compare span {
+  padding: 10px;
+}
+#compare p {
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+}
+#result {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(21, 233, 10);
+}
+#playButtonDiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#playButtonDiv button {
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+}
+
+#play img,
+#reset img {
+  height: 100%;
+  width: 100%;
+}
+#you,
+#computer {
+  font-size: 25px;
+}
